@@ -9,6 +9,8 @@ for ($i = 15; $i <= 45; $i++) {
     if ($i % 2 == 0) continue; // hanya ambil bilangan ganjil
     echo "12 * $i = " . (12 * $i) . "<br>";
 }
+
+//Project 4.5.2 By ASEP SURYA AGUSTIN - 221011450392
 ?>
 </body>
 </html>

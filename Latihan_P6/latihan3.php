@@ -1,4 +1,4 @@
-<?
+<?php
 $UsiaKaryawan["Lisa"] = "28";
 $UsiaKaryawan["Jack"] = "16";
 $UsiaKaryawan["Ryan"] = "35";

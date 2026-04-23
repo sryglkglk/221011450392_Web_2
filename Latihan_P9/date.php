@@ -6,6 +6,7 @@
 <body>
     <font size="10px">
         <?php
+        date_default_timezone_set('Asia/Jakarta'); // Set zona waktu ke Jakarta 
         echo "Sekarang tanggal ";
         echo date('d-F-Y'); // format: hari-bulan-tahun
         echo "<br>dan jam ";
@@ -14,4 +15,4 @@
     </font>
 </body>
 </html>
-<!-- Project 9.3 By ASEP SURYA AGUSTIN - 221011450392 -->
+<!-- Project 9.4 By ASEP SURYA AGUSTIN - 221011450392 -->

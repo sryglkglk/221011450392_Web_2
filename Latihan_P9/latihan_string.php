@@ -20,5 +20,5 @@ echo "Huruf pertama tiap kata besar: " . ucwords("pemrograman web lanjutan") . "
 echo "Ltrim: '" . ltrim("   teks") . "'<br>";
 echo "Rtrim: '" . rtrim("teks   ") . "'<br>";
 
-// Project 9.6 By ASEP SURYA AGUSTIN - 221011450392
+// Project 9.4 By ASEP SURYA AGUSTIN - 221011450392
 ?>

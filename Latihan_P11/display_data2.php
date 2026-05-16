@@ -1,10 +1,9 @@
 <?php
-mysql_connect("localhost","root","");
-mysql_select_db("lat_dbase");
+$con = mysqli_connect("localhost","root","","lat_dbase");
+$hasil = mysqli_query($con, "SELECT * FROM tbl_mhs");
 
-$hasil = mysql_query("SELECT * FROM tbl_mhs");
-
-while ($data = mysql_fetch_array($hasil)) {
+while ($data = mysqli_fetch_array($hasil)) {
     echo "$data[FirstName] $data[LastName] $data[Age]<br>";
 }
+// Project 11.6 By ASEP SURYA AGUSTIN - 221011450392
 ?>

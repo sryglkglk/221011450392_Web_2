@@ -2,7 +2,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
-$dbname = "artikel_db";
+$dbname = "lat_dbase";
 
 // Lakukan koneksi dengan MySQL
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
@@ -10,6 +10,8 @@ $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if (!$connection) {
     echo "Tidak dapat terhubung dengan database";
     exit;
+} else {
+    echo "Database telah Terhubung!";
 }
 
 // Tidak perlu mysql_select_db() lagi, sudah include di mysqli_connect()

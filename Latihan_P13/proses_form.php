@@ -13,4 +13,5 @@ echo "<p><strong>Nama:</strong> {$nama}</p>";
 echo "<p><strong>Jurusan:</strong> {$jurusan}</p>";
 echo "<p><strong>Alamat:</strong> {$alamat}</p>";
 echo "<p><strong>No. Telp:</strong> {$telp}</p>";
+// Project 13.2 By ASEP SURYA AGUSTIN - 221011450392
 ?>
